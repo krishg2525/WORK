@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -39,7 +38,7 @@ export default function Home() {
       >
         <About />
       </motion.div>
-
+      <hr className="my-12 border-t border-gray-600 w-11/12 mx-auto" />
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -48,7 +47,7 @@ export default function Home() {
       >
         <Services />
       </motion.div>
-
+      <hr className="my-12 border-t border-gray-600 w-11/12 mx-auto" />
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -57,7 +56,7 @@ export default function Home() {
       >
         <FAQ />
       </motion.div>
-
+      <hr className="my-12 border-t border-gray-600 w-11/12 mx-auto" />
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}

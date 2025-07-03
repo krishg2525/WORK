@@ -8,7 +8,9 @@ export default function About() {
           className="w-64 h-64 object-cover rounded-full"
         />
         <div className="space-y-4 text-gray-700">
-          <h2 className="text-3xl font-bold">About Dr. Serena Blake, PsyD</h2>
+          <h2 className="text-3xl font-bold">
+            About Dr. Serena Blake, PsyD (Clinical Psychologist)
+          </h2>
           <p>
             Dr. Serena Blake is a licensed clinical psychologist (PsyD) based in
             Los Angeles, CA, with eight years of experience and over 500 client
